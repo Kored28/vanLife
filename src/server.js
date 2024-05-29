@@ -19,7 +19,6 @@ createServer({
     },
 
     routes() {
-        this.urlPrefix = 'http://localhost:5173';
         this.namespace = "api"
         this.logging = false
         this.passthrough("https://firestore.googleapis.com/**")
